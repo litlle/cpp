@@ -48,7 +48,7 @@ std::vector<int> signal_source(std::vector<int>signal_open, std::vector<int> sig
 
 namespace py = pybind11;
 
-PYBIND11_MODULE(cpp_csompute, m) {
+PYBIND11_MODULE(cppCompute, m) {
     m.doc() = R"pbdoc(
         Pybind11 example plugin
         -----------------------
